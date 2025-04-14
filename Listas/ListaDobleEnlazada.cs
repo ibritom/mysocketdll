@@ -133,5 +133,35 @@ namespace Listas
             }
 
         }
+        public override bool Equals(object obj)
+        {
+            if (obj is not ListaDobleEnlazada<Tipo> otra) return false;
+            if (this.tamano != otra.tamano) return false;
+
+            Nodo<Tipo> actual = this.cabeza;
+            Nodo<Tipo> otroActual = otra.cabeza;
+
+            while (actual != null)
+            {
+                if (!EqualityComparer<Tipo>.Default.Equals(actual.valor, otroActual.valor))
+                    return false;
+                actual = actual.siguiente;
+                otroActual = otroActual.siguiente;
+            }
+
+            return true;
+        }
+
+        public override int GetHashCode()
+        {
+            int hash = tamano;
+            Nodo<Tipo> actual = cabeza;
+            while (actual != null)
+            {
+                hash = HashCode.Combine(hash, EqualityComparer<Tipo>.Default.GetHashCode(actual.valor));
+                actual = actual.siguiente;
+            }
+            return hash;
+        }
     }
 }

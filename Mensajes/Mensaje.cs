@@ -32,5 +32,18 @@ namespace Mensajes
         {
             return $"[{idMensaje}] {encabezado}: {cuerpo}";
         }
+        public override bool Equals(object obj)
+        {
+            if (obj is not Mensaje otro) return false;
+            return this.id == otro.id &&
+                   this.usuario == otro.usuario &&
+                   this.mensaje == otro.mensaje &&
+                   this.fecha == otro.fecha;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(id, usuario, mensaje, fecha);
+        }
     }
 }

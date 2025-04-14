@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\MySocket\\MySocket.csproj": {}
+    "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\MySocket\\MySocket.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Listas.csproj": {
+    "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Listas\\Listas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Listas.csproj",
+        "projectUniqueName": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Listas\\Listas.csproj",
         "projectName": "Listas",
-        "projectPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Listas.csproj",
-        "packagesPath": "C:\\Users\\jeijo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\obj\\",
+        "projectPath": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Listas\\Listas.csproj",
+        "packagesPath": "C:\\Users\\Kho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Listas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jeijo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,20 +69,20 @@
         }
       }
     },
-    "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\MySocket\\MySocket.csproj": {
+    "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\MySocket\\MySocket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\MySocket\\MySocket.csproj",
+        "projectUniqueName": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\MySocket\\MySocket.csproj",
         "projectName": "MySocket",
-        "projectPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\MySocket\\MySocket.csproj",
-        "packagesPath": "C:\\Users\\jeijo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\MySocket\\obj\\",
+        "projectPath": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\MySocket\\MySocket.csproj",
+        "packagesPath": "C:\\Users\\Kho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\MySocket\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jeijo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Listas.csproj": {
-                "projectPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Listas.csproj"
+              "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Listas\\Listas.csproj": {
+                "projectPath": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Listas\\Listas.csproj"
               }
             }
           }

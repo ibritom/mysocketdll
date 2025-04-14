@@ -46,23 +46,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jeijo\\.nuget\\packages\\": {},
+    "C:\\Users\\Kho\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Interfaces\\Interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Interfaces\\Interfaces.csproj",
       "projectName": "Interfaces",
-      "projectPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Interfaces\\Interfaces.csproj",
-      "packagesPath": "C:\\Users\\jeijo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Interfaces\\obj\\",
+      "projectPath": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Interfaces\\Interfaces.csproj",
+      "packagesPath": "C:\\Users\\Kho\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jeijo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kho\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -77,11 +77,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Listas.csproj": {
-              "projectPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Listas.csproj"
+            "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Listas\\Listas.csproj": {
+              "projectPath": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Listas\\Listas.csproj"
             },
-            "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Mensajes\\Mensajes.csproj": {
-              "projectPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Mensajes\\Mensajes.csproj"
+            "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Mensajes\\Mensajes.csproj": {
+              "projectPath": "C:\\Users\\Kho\\Source\\Repos\\mysocketdll\\Mensajes\\Mensajes.csproj"
             }
           }
         }
