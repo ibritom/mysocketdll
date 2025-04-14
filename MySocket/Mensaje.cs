@@ -10,7 +10,7 @@ namespace MySocket
     public class Mensaje
     {
         private static int contadorId;
-        private static Lista listaDeMensajes = new ListaDobleEnlazada<Mensaje>();
+        private static Lista<Mensaje> listaDeMensajes = new ListaDobleEnlazada<Mensaje>();
         public int idMensaje { get; set; }
         public string encabezado { get; set; }
         public string cuerpo { get; set; }

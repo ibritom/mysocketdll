@@ -12,7 +12,7 @@ namespace Listas
         public Nodo<Tipo> siguiente { get; set; }
 
         public Nodo<Tipo> anterior { get; set; }
-        public Nodo(int valor)
+        public Nodo(Tipo valor)
         {
             this.valor = valor;
             this.siguiente = null;

@@ -14,7 +14,7 @@ namespace Listas
         public int Tamano();
         public bool Contiene(Tipo elemento);
         public bool Anadir(Tipo elemento);
-        public int Borrar(Tipo elemento);
+        public Tipo Borrar(Tipo elemento);
 
     }
 }

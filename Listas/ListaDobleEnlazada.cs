@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Listas
 {
-    public class ListaDobleEnlazada<Tipo> : Lista
+    public class ListaDobleEnlazada<Tipo> : Lista<Tipo>
     {
         private Nodo<Tipo> cabeza;
         private int tamano;
@@ -34,7 +34,7 @@ namespace Listas
             Nodo<Tipo> actual = this.cabeza;
             while (actual != null)
             {
-                if (actual.valor == elemento)
+                if (Equals(actual.valor, elemento))
                 {
                     return true;
                 }
@@ -62,13 +62,13 @@ namespace Listas
             this.tamano++;
             return true;
         }
-        public int Borrar(Tipo elemento)
+        public Tipo Borrar(Tipo elemento)
         {
             if (this.cabeza == null)
             {
                 throw new KeyNotFoundException();
             }
-            if (this.cabeza.valor == elemento)
+            if (Equals(this.cabeza.valor, elemento))
             {
                 this.cabeza = this.cabeza.siguiente;
                 if (this.cabeza != null)
@@ -81,7 +81,7 @@ namespace Listas
             Nodo<Tipo> actual = this.cabeza;
             while (actual.siguiente != null)
             {
-                if (actual.siguiente.valor == elemento)
+                if (Equals(actual.siguiente.valor, elemento))
                 {
                     actual.siguiente = actual.siguiente.siguiente;
                     if (actual.siguiente != null)

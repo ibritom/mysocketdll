@@ -1,16 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jeijo\\source\\repos\\mysocketdll\\MySocket\\",
+  "WorkspaceRootPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\MySocket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\ListaDobleEnlazada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3756B8E0-59D0-FB98-9AA5-5434472EC268}|MySocket.csproj|c:\\users\\jeijo\\source\\repos\\mysocketdll\\mysocket\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3756B8E0-59D0-FB98-9AA5-5434472EC268}|MySocket.csproj|c:\\users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\mysocket\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3756B8E0-59D0-FB98-9AA5-5434472EC268}|MySocket.csproj|solutionrelative:mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35C33440-0789-4F1E-8D3E-BCABF7B9AEBA}|..\\Mensajes\\Mensajes.csproj|c:\\users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\mensajes\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B89332E-D05E-46B9-87C1-0A739D8125EB}|..\\Listas\\Listas.csproj|c:\\users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\listas\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B89332E-D05E-46B9-87C1-0A739D8125EB}|..\\Listas\\Listas.csproj|c:\\users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\listas\\listadobleenlazada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B89332E-D05E-46B9-87C1-0A739D8125EB}|..\\Listas\\Listas.csproj|c:\\users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\listas\\lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,35 +38,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mensaje.cs",
+              "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Mensajes\\Mensaje.cs",
+              "RelativeDocumentMoniker": "..\\Mensajes\\Mensaje.cs",
+              "ToolTip": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Mensajes\\Mensaje.cs",
+              "RelativeToolTip": "..\\Mensajes\\Mensaje.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T21:22:23.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lista.cs",
+              "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Lista.cs",
+              "RelativeDocumentMoniker": "..\\Listas\\Lista.cs",
+              "ToolTip": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Lista.cs",
+              "RelativeToolTip": "..\\Listas\\Lista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T21:21:53.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Nodo.cs",
               "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Nodo.cs",
-              "RelativeDocumentMoniker": "..\\..\\ibritom\\mysocketdll\\Listas\\Nodo.cs",
+              "RelativeDocumentMoniker": "..\\Listas\\Nodo.cs",
               "ToolTip": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Nodo.cs",
-              "RelativeToolTip": "..\\..\\ibritom\\mysocketdll\\Listas\\Nodo.cs",
+              "RelativeToolTip": "..\\Listas\\Nodo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:00:34.688Z"
+              "WhenOpened": "2025-03-19T19:00:34.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListaDobleEnlazada.cs",
+              "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\ListaDobleEnlazada.cs",
+              "RelativeDocumentMoniker": "..\\Listas\\ListaDobleEnlazada.cs",
+              "ToolTip": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\ListaDobleEnlazada.cs",
+              "RelativeToolTip": "..\\Listas\\ListaDobleEnlazada.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAE0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T18:52:09.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListaDobleEnlazada.cs",
-              "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\ListaDobleEnlazada.cs",
-              "RelativeDocumentMoniker": "..\\..\\ibritom\\mysocketdll\\Listas\\ListaDobleEnlazada.cs",
-              "ToolTip": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\ListaDobleEnlazada.cs",
-              "RelativeToolTip": "..\\..\\ibritom\\mysocketdll\\Listas\\ListaDobleEnlazada.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T18:52:09.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Mensaje.cs",
-              "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\mysocketdll\\MySocket\\Mensaje.cs",
+              "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\MySocket\\Mensaje.cs",
               "RelativeDocumentMoniker": "Mensaje.cs",
-              "ToolTip": "C:\\Users\\jeijo\\source\\repos\\mysocketdll\\MySocket\\Mensaje.cs",
-              "RelativeToolTip": "Mensaje.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBoAAAA0AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\MySocket\\Mensaje.cs*",
+              "RelativeToolTip": "Mensaje.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T17:26:58.419Z",
               "EditorCaption": ""
