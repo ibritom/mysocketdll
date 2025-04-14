@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Listas
 {
-    public interface Lista
+    public interface Lista<Tipo>
     {
         public void Vaciar();
         public bool RevisarVacio();
 
         public int Tamano();
-        public bool Contiene(int elemento);
-        public bool Anadir(int elemento);
-        public int Borrar(int elemento);
+        public bool Contiene(Tipo elemento);
+        public bool Anadir(Tipo elemento);
+        public int Borrar(Tipo elemento);
 
     }
 }
