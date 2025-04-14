@@ -9,10 +9,6 @@
       "AbsoluteMoniker": "D:0:0:{8B89332E-D05E-46B9-87C1-0A739D8125EB}|..\\Listas\\Listas.csproj|c:\\users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\listas\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3756B8E0-59D0-FB98-9AA5-5434472EC268}|MySocket.csproj|c:\\users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\mysocket\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3756B8E0-59D0-FB98-9AA5-5434472EC268}|MySocket.csproj|solutionrelative:mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B89332E-D05E-46B9-87C1-0A739D8125EB}|..\\Listas\\Listas.csproj|c:\\users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\listas\\listadobleenlazada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,16 +38,16 @@
               "Title": "Mensaje.cs",
               "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Mensajes\\Mensaje.cs",
               "RelativeDocumentMoniker": "..\\Mensajes\\Mensaje.cs",
-              "ToolTip": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Mensajes\\Mensaje.cs",
-              "RelativeToolTip": "..\\Mensajes\\Mensaje.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Mensajes\\Mensaje.cs*",
+              "RelativeToolTip": "..\\Mensajes\\Mensaje.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T21:22:23.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Lista.cs",
               "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Lista.cs",
               "RelativeDocumentMoniker": "..\\Listas\\Lista.cs",
@@ -59,8 +55,7 @@
               "RelativeToolTip": "..\\Listas\\Lista.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T21:21:53.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T21:21:53.754Z"
             },
             {
               "$type": "Document",
@@ -72,12 +67,11 @@
               "RelativeToolTip": "..\\Listas\\Nodo.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:00:34.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T19:00:34.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ListaDobleEnlazada.cs",
               "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\ListaDobleEnlazada.cs",
               "RelativeDocumentMoniker": "..\\Listas\\ListaDobleEnlazada.cs",
@@ -85,21 +79,7 @@
               "RelativeToolTip": "..\\Listas\\ListaDobleEnlazada.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAE0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T18:52:09.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mensaje.cs",
-              "DocumentMoniker": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\MySocket\\Mensaje.cs",
-              "RelativeDocumentMoniker": "Mensaje.cs",
-              "ToolTip": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\MySocket\\Mensaje.cs",
-              "RelativeToolTip": "Mensaje.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T17:26:58.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T18:52:09.808Z"
             }
           ]
         }

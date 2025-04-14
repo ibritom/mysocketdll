@@ -9,7 +9,10 @@ namespace Mensajes
 {
     internal class Mensaje
     {
-        private static int contadorId;
+        private int id;
+        private string usuario;
+        private string mensaje;
+        private DateTime fecha;
         private static Lista<Mensaje> listaDeMensajes = new ListaDobleEnlazada<Mensaje>();
 
         public int idMensaje { get; private set; }
@@ -18,7 +21,7 @@ namespace Mensajes
 
         public Mensaje(string encabezado, string cuerpo)
         {
-            idMensaje = contadorId++;
+            idMensaje = id++;
             this.encabezado = encabezado;
             this.cuerpo = cuerpo;
         }
