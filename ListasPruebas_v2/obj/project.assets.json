@@ -1148,6 +1148,19 @@
         "runtime": {
           "bin/placeholder/Listas.dll": {}
         }
+      },
+      "Mensajes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Listas": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mensajes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mensajes.dll": {}
+        }
       }
     }
   },
@@ -2542,12 +2555,18 @@
       "type": "project",
       "path": "../Listas/Listas.csproj",
       "msbuildProject": "../Listas/Listas.csproj"
+    },
+    "Mensajes/1.0.0": {
+      "type": "project",
+      "path": "../Mensajes/Mensajes.csproj",
+      "msbuildProject": "../Mensajes/Mensajes.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Listas >= 1.0.0",
       "MSTest >= 3.6.4",
+      "Mensajes >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
       "Microsoft.Testing.Extensions.CodeCoverage >= 17.12.6",
       "Microsoft.Testing.Extensions.TrxReport >= 1.4.3"
@@ -2587,6 +2606,9 @@
           "projectReferences": {
             "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Listas.csproj": {
               "projectPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Listas\\Listas.csproj"
+            },
+            "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Mensajes\\Mensajes.csproj": {
+              "projectPath": "C:\\Users\\jeijo\\source\\repos\\ibritom\\mysocketdll\\Mensajes\\Mensajes.csproj"
             }
           }
         }
