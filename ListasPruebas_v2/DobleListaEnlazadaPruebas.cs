@@ -1,4 +1,5 @@
 using Listas;
+using Mensajes;
 
 namespace ListasPruebas_v2;
 
@@ -8,9 +9,7 @@ public sealed class DobleListaEnlazadaPruebas
     [TestMethod]
     public void Vaciar_FuncionaCorrectamente()
     {
-        Lista lista_aVerificar = new ListaDobleEnlazada<int>();
-
-
+        Lista<int> lista_aVerificar = new ListaDobleEnlazada<int>();
         lista_aVerificar.Anadir(1);
         lista_aVerificar.Anadir(3);
         lista_aVerificar.Anadir(44);
@@ -25,7 +24,7 @@ public sealed class DobleListaEnlazadaPruebas
     [TestMethod]
     public void RevisarVacio_BooleanoCorrecto1()
     {
-        Lista lista_aVerificar = new ListaDobleEnlazada<int>();
+        Lista<int> lista_aVerificar = new ListaDobleEnlazada<int>();
         bool valorBooleanoEsperado = false;
 
         lista_aVerificar.Anadir(1);
@@ -42,7 +41,7 @@ public sealed class DobleListaEnlazadaPruebas
     [TestMethod]
     public void RevisarVacio_BooleanoCorrecto2()
     {
-        Lista lista_aVerificar = new ListaDobleEnlazada<int>();
+        Lista<int> lista_aVerificar = new ListaDobleEnlazada<int>();
         bool valorBooleanoEsperado = true;
 
         lista_aVerificar.Anadir(1);
@@ -60,7 +59,7 @@ public sealed class DobleListaEnlazadaPruebas
     [TestMethod]
     public void Tamano_EnteroCorrecto()
     {
-        Lista lista_aVerificar = new ListaDobleEnlazada<int>();
+        Lista<int> lista_aVerificar = new ListaDobleEnlazada<int>();
         int valorEnteroEsperado = 3;
 
         lista_aVerificar.Anadir(1);
@@ -75,7 +74,7 @@ public sealed class DobleListaEnlazadaPruebas
     [TestMethod]
     public void Contiene_BooleanoCorrecto1()
     {
-        Lista lista_aVerificar = new ListaDobleEnlazada<int>();
+        Lista<int> lista_aVerificar = new ListaDobleEnlazada<int>();
         bool valorBooleanoEsperado = true;
 
         lista_aVerificar.Anadir(1);
@@ -94,7 +93,7 @@ public sealed class DobleListaEnlazadaPruebas
     [TestMethod]
     public void Contiene_BooleanoCorrecto2()
     {
-        Lista lista_aVerificar = new ListaDobleEnlazada<int>();
+        Lista<int> lista_aVerificar = new ListaDobleEnlazada<int>();
         bool valorBooleanoEsperado = false;
 
         lista_aVerificar.Anadir(1);
@@ -113,7 +112,7 @@ public sealed class DobleListaEnlazadaPruebas
     [TestMethod]
     public void Anadir_FuncionaCorrectamente()
     {
-        Lista lista_aVerificar = new ListaDobleEnlazada<int>();
+        Lista<int> lista_aVerificar = new ListaDobleEnlazada<int>();
         bool valorBooleanoEsperado = true;
 
         lista_aVerificar.Anadir(1);
@@ -128,7 +127,7 @@ public sealed class DobleListaEnlazadaPruebas
     [TestMethod]
     public void Borrar_FuncionaCorrecta()
     {
-        Lista lista_aVerificar = new ListaDobleEnlazada<int>();
+        Lista<int> lista_aVerificar = new ListaDobleEnlazada<int>();
         bool prueba;
         bool respuestaEsperada = true;
         lista_aVerificar.Anadir(1);
@@ -144,7 +143,7 @@ public sealed class DobleListaEnlazadaPruebas
     [TestMethod]
     public void ToString_StringCorrecto()
     {
-        Lista lista_aVerificar = new ListaDobleEnlazada<int>();
+        Lista<int> lista_aVerificar = new ListaDobleEnlazada<int>();
         string stringEsperado = "[2, 3]";
 
         lista_aVerificar.Anadir(2);
