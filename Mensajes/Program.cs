@@ -5,6 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            Mensajes.Mensaje.Limpiar();
+            Console.WriteLine($"Mensaje.id = {Mensaje.id}");
+
         }
     }
 }

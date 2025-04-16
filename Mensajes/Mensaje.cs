@@ -7,16 +7,15 @@ using Listas;
 
 namespace Mensajes
 {
-    internal class Mensaje
+    public class Mensaje
     {
-        private int id;
-        private string usuario;
-        private string mensaje;
-        private DateTime fecha;
-        private static Lista<Mensaje> listaDeMensajes = new ListaDobleEnlazada<Mensaje>();
+        internal static int id {get; private set;}
+        public string? usuario { get; internal set; }
+        public string? encabezado { get; internal set; }
+        public DateTime fecha { get; internal set; }
+        internal static Lista<Mensaje> listaDeMensajes = new ListaDobleEnlazada<Mensaje>();
 
         public int idMensaje { get; private set; }
-        public string encabezado { get; set; }
         public string cuerpo { get; set; }
 
         public Mensaje(string encabezado, string cuerpo)
@@ -38,15 +37,21 @@ namespace Mensajes
         public override bool Equals(object obj)
         {
             if (obj is not Mensaje otro) return false;
-            return this.id == otro.id &&
+            return this.idMensaje == otro.idMensaje &&
                    this.usuario == otro.usuario &&
-                   this.mensaje == otro.mensaje &&
+                   this.encabezado == otro.encabezado &&
+                   this.cuerpo == otro.cuerpo &&
                    this.fecha == otro.fecha;
         }
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(id, usuario, mensaje, fecha);
+            return HashCode.Combine(idMensaje, usuario, encabezado, fecha);
+        }
+        public static void Limpiar()
+        {
+            listaDeMensajes.Vaciar();
+            id = 0;
         }
     }
 }

@@ -9,8 +9,8 @@ namespace Listas
 {
     public class ListaDobleEnlazada<Tipo> : Lista<Tipo>
     {
-        private Nodo<Tipo> cabeza;
-        private int tamano;
+        internal Nodo<Tipo> cabeza;
+        internal int tamano;
         public ListaDobleEnlazada()
         {
             this.cabeza = null;

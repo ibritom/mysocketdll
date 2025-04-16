@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "..\Interfaces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking", "..\Networking\Networking.csproj", "{CCB298E9-1EF6-4C61-A6BF-135D26C45DD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mensajes.Pruebas", "..\Mensajes.Pruebas\Mensajes.Pruebas.csproj", "{9B99C7DD-FBFE-4FFD-86A3-1409BFF8CFC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{CCB298E9-1EF6-4C61-A6BF-135D26C45DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCB298E9-1EF6-4C61-A6BF-135D26C45DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCB298E9-1EF6-4C61-A6BF-135D26C45DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B99C7DD-FBFE-4FFD-86A3-1409BFF8CFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B99C7DD-FBFE-4FFD-86A3-1409BFF8CFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B99C7DD-FBFE-4FFD-86A3-1409BFF8CFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B99C7DD-FBFE-4FFD-86A3-1409BFF8CFC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
