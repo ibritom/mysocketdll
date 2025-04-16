@@ -7,7 +7,7 @@ using Listas;
 
 namespace Mensajes
 {
-    internal class Mensaje
+    public class Mensaje
     {
         private int id;
         private string usuario;
