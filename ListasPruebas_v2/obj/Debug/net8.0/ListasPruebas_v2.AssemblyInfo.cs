@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ListasPruebas_v2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1abfee0200fd54cbd0cc1db7ee9df1ad6f206879")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ddca1ec55e71019e6295f17428f4c29862f8223")]
 [assembly: System.Reflection.AssemblyProductAttribute("ListasPruebas_v2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ListasPruebas_v2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
