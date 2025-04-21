@@ -2,19 +2,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySocket", "MySocket.csproj", "{3756B8E0-59D0-FB98-9AA5-5434472EC268}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySocket", "MySocket.csproj", "{3756B8E0-59D0-FB98-9AA5-5434472EC268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "..\Listas\Listas.csproj", "{8B89332E-D05E-46B9-87C1-0A739D8125EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listas", "..\Listas\Listas.csproj", "{8B89332E-D05E-46B9-87C1-0A739D8125EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListasPruebas_v2", "..\ListasPruebas_v2\ListasPruebas_v2.csproj", "{66C9466D-2626-4F2B-865B-E9442FDF593A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListasPruebas_v2", "..\ListasPruebas_v2\ListasPruebas_v2.csproj", "{66C9466D-2626-4F2B-865B-E9442FDF593A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mensajes", "..\Mensajes\Mensajes.csproj", "{35C33440-0789-4F1E-8D3E-BCABF7B9AEBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mensajes", "..\Mensajes\Mensajes.csproj", "{35C33440-0789-4F1E-8D3E-BCABF7B9AEBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "..\Interfaces\Interfaces.csproj", "{D5C0F2BE-947C-4225-8E99-F158823AB70D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "..\Interfaces\Interfaces.csproj", "{D5C0F2BE-947C-4225-8E99-F158823AB70D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking", "..\Networking\Networking.csproj", "{CCB298E9-1EF6-4C61-A6BF-135D26C45DD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Networking", "..\Networking\Networking.csproj", "{CCB298E9-1EF6-4C61-A6BF-135D26C45DD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mensajes.Pruebas", "..\Mensajes.Pruebas\Mensajes.Pruebas.csproj", "{9B99C7DD-FBFE-4FFD-86A3-1409BFF8CFC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mensajes.Pruebas", "..\Mensajes.Pruebas\Mensajes.Pruebas.csproj", "{9B99C7DD-FBFE-4FFD-86A3-1409BFF8CFC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking.Pruebas", "..\Networking.Pruebas\Networking.Pruebas.csproj", "{3EAB99FB-3BD1-4E22-ADE4-6C0170839012}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{9B99C7DD-FBFE-4FFD-86A3-1409BFF8CFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B99C7DD-FBFE-4FFD-86A3-1409BFF8CFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B99C7DD-FBFE-4FFD-86A3-1409BFF8CFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAB99FB-3BD1-4E22-ADE4-6C0170839012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAB99FB-3BD1-4E22-ADE4-6C0170839012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAB99FB-3BD1-4E22-ADE4-6C0170839012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAB99FB-3BD1-4E22-ADE4-6C0170839012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
