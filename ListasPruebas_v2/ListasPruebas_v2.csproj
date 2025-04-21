@@ -24,7 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Listas\Listas.csproj" />
-    <ProjectReference Include="..\Mensajes\Mensajes.csproj" />
   </ItemGroup>
 
   <ItemGroup>

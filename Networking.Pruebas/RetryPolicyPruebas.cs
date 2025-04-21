@@ -1,3 +1,6 @@
+using Networking;
+using MySocket;
+
 namespace Networking.Pruebas
 {
     [TestClass]
