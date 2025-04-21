@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
     <ProjectReference Include="..\Listas\Listas.csproj" />
+    <ProjectReference Include="..\Mensajes\Mensajes.csproj" />
+    <ProjectReference Include="..\Networking\Networking.csproj" />
   </ItemGroup>
 
 </Project>
