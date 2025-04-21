@@ -122,7 +122,7 @@ namespace Listas
                         }
 
                     }
-                    return "[" + stringLista + "]";
+                    return "\n[" + stringLista + "]";
                 }
                 return "";
             }
