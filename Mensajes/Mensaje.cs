@@ -9,7 +9,7 @@ namespace Mensajes
 {
     public class Mensaje
     {
-        internal static int id {get; private set;}
+        public static int id {get; private set;}
         public string? usuario { get; internal set; }
         public string? encabezado { get; internal set; }
         public DateTime fecha { get; internal set; }
